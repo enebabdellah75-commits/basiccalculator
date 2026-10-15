@@ -17,6 +17,20 @@ public class basiccalculator {
         //store the answer for the second number
         int secondnumber =theScanner.nextInt();
 
+        theScanner.nextLine();
+
+        System.out.println("Possible calculations:\n" +
+                "(A)dd\n" +
+                "(S)ubtract\n" +
+                "(M)ultiply\n" +
+                "(D)ivide\n" +
+                "Please select an option:");
+        //store the answere to what operation
+        String opration=theScanner.nextLine();
+
+        int result = firstnumber * secondnumber ;
+
+        System.out.println(firstnumber + " * " + secondnumber + " = " + result);
 
 
 
